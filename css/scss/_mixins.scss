@@ -1,0 +1,15 @@
+// Definición de mixins
+@mixin flex-container($direction: row, $align: center, $justify: center) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+@mixin grid-container($columns: 1, $rows: 1, $gap: 0) {
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    grid-template-rows: repeat($rows, auto);
+    gap: $gap;
+}
+

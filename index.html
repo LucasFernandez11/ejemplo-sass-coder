@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de BEM con SCSS</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header class="header">
+            <nav class="header__nav">
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Inicio</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Sobre Nosotros</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Servicios</a></li>
+                    <li class="header__nav-item"><a href="#" class="header__nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="main__section main__section--intro">
+                <h1 class="main__title">Bienvenidos a Nuestro Sitio</h1>
+                <p class="main__text">Aquí encontrarás información sobre nuestros servicios y novedades.</p>
+            </section>
+            <section class="main__section main__section--services">
+                <h2 class="main__subtitle">Nuestros Servicios</h2>
+                <p class="main__text">Ofrecemos una variedad de servicios para satisfacer tus necesidades.</p>
+            </section>
+            <section class="main__section main__section--contact">
+                <h2 class="main__subtitle">Contáctanos</h2>
+                <p class="main__text">No dudes en ponerte en contacto con nosotros para más información.</p>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__social">
+                <a href="#" class="footer__social-link">Facebook</a>
+                <a href="#" class="footer__social-link">Twitter</a>
+                <a href="#" class="footer__social-link">Instagram</a>
+            </div>
+            <div class="footer__contact">
+                <p class="footer__contact-info">Teléfono: (123) 456-7890</p>
+                <p class="footer__contact-info">Email: contacto@example.com</p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
